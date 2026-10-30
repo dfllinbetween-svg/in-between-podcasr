@@ -83,8 +83,39 @@
     line-height: 1.9;
     color: #555555;
 }
+/* =========================
+   EPISODE HIGHLIGHTS
+========================= */
 
 .episode-highlights {
-    background-color: lightyellow;
-    padding: 30px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.episode-highlights h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.timestamp-item {
+    display: flex;
+    align-items: baseline;
+    gap: 28px;
+    padding: 14px 0;
+    border-bottom: 1px solid #dedad2;
+}
+
+.timestamp {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #9a765f;
+    min-width: 48px;
+}
+
+.timestamp-item p {
+    margin: 0;
+    font-size: 15px;
+    color: #444444;
 }
