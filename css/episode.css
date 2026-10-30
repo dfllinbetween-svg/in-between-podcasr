@@ -83,3 +83,8 @@
     line-height: 1.9;
     color: #555555;
 }
+
+.episode-highlights {
+    background-color: lightyellow;
+    padding: 30px;
+}
