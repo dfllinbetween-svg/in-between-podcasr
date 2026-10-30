@@ -62,3 +62,24 @@
         font-size: 32px;
     }
 }
+/* =========================
+   EPISODE INTRODUCTION
+========================= */
+
+.episode-intro {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.episode-intro h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 22px;
+}
+
+.episode-intro p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #555555;
+}
