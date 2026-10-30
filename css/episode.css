@@ -8,3 +8,57 @@
     margin: 0 auto;
     padding: 80px 25px;
 }
+
+/* =========================
+   EPISODE HEADER
+========================= */
+
+.episode-header {
+    text-align: center;
+    padding: 50px 0 55px;
+    border-bottom: 1px solid #dedad2;
+}
+
+.episode-number {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #9a765f;
+    margin-bottom: 22px;
+}
+
+.episode-header h1 {
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.35;
+    margin-bottom: 18px;
+}
+
+.episode-date {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #888888;
+}
+
+.episode-divider {
+    width: 45px;
+    height: 1px;
+    background-color: #b9a99a;
+    margin: 28px auto;
+}
+
+.episode-department {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #777777;
+    letter-spacing: 0.3px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .episode-header h1 {
+        font-size: 32px;
+    }
+}
