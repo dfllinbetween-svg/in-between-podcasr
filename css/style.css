@@ -1,0 +1,197 @@
+
+/* =========================
+   GENERAL SETTINGS
+========================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #333333;
+    background-color: #faf9f6;
+    line-height: 1.8;
+}
+
+/* =========================
+   HEADER & NAVIGATION
+========================= */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e2dc;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #555555;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #a16b50;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-color: #eeeae2;
+}
+
+.eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8c7666;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #666666;
+}
+
+/* =========================
+   CONTENT SECTIONS
+========================= */
+
+.about,
+.episodes {
+    max-width: 900px;
+    margin: 90px auto;
+    padding: 0 25px;
+}
+
+.about h2,
+.episodes h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #d8d2c8;
+    padding-bottom: 12px;
+}
+
+.about p {
+    font-size: 17px;
+    color: #555555;
+}
+
+/* =========================
+   EPISODE CARD
+========================= */
+
+.episode-card {
+    background-color: #ffffff;
+    padding: 35px;
+    border: 1px solid #e8e4dc;
+    margin-top: 25px;
+}
+
+.episode-number {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #a16b50;
+    margin-bottom: 12px;
+}
+
+.episode-card h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.episode-card p {
+    color: #777777;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 20px;
+    color: #a16b50;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: #eae6df;
+    color: #777777;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    .site-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        gap: 18px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .about,
+    .episodes {
+        margin: 60px auto;
+    }
+
+}
