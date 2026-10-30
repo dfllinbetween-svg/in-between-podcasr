@@ -189,6 +189,134 @@ footer {
         font-size: 42px;
     }
 
+/* =========================
+   EPISODE PAGE
+========================= */
+
+.episode-page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 60px 25px 100px;
+}
+
+.episode-hero {
+    text-align: center;
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd5c9;
+    margin-bottom: 50px;
+}
+
+.episode-hero h1 {
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.episode-date {
+    color: #888;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.episode-subtitle {
+    color: #a16b50;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.episode-page section {
+    margin-bottom: 55px;
+}
+
+.episode-page section h2 {
+    font-size: 27px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd5c9;
+}
+
+.episode-page p {
+    color: #555;
+    font-size: 16px;
+}
+
+.audio-player {
+    background: #eeeae2;
+    padding: 35px;
+    text-align: center;
+}
+
+.timestamps ul,
+.references ul {
+    list-style: none;
+}
+
+.timestamps li {
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e2dc;
+}
+
+.timestamps li span {
+    color: #a16b50;
+    font-family: Arial, sans-serif;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.references h3 {
+    margin: 25px 0 10px;
+    font-size: 18px;
+}
+
+.references li {
+    padding: 5px 0;
+}
+
+.references a {
+    color: #a16b50;
+}
+
+.guest-card {
+    background: white;
+    border: 1px solid #e8e4dc;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.guest-card h3 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.back-home {
+    margin-top: 50px;
+}
+
+.back-home a {
+    color: #a16b50;
+    text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .episode-hero h1 {
+        font-size: 32px;
+    }
+
+    .episode-page {
+        padding: 35px 20px 70px;
+    }
+
+    .audio-player {
+        padding: 20px;
+    }
+
+}
+
     .about,
     .episodes {
         margin: 60px auto;
